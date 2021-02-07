@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>【教程】一加5刷LineageOS全过程 | WAY</title>
+<meta name="description" content="爱谁谁">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://mikey2008.github.io/favicon.ico?v=1612701331273">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://mikey2008.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://mikey2008.github.io">WAY</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>【教程】一加5刷LineageOS全过程</h1>
+            <p class="article-meta">
+              2019-12-31
+              
+                <a href="https://mikey2008.github.io/LaFdBA_Ty/" class="badge secondary">
+                  刷机
+                </a>
+              
+                <a href="https://mikey2008.github.io/fQJglpPtze/" class="badge ">
+                  一加5
+                </a>
+              
+                <a href="https://mikey2008.github.io/kRv0HA_ZOt/" class="badge secondary">
+                  LineageOS
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
+              <p>一加5刷LineageOS 16.0过（折）程（腾）详解……<!--more--></p>
+<hr>
+<p>2020年1月18日【update：升级系统与使用对比】</p>
+<p><img src="http://imglf4.nosdn0.126.net/img/YW1mMVNMRFhFaEVEblFBRGp6aHYvdS9ieTVwUkpPeU9rdDVCWWFFcllMa2Y0TzhGUVgrWm9RPT0.jpg" alt="关于系统升级" loading="lazy"><br>
+当有新版本需要更新时，请按照如上图所示提示，下载完成后点升级，等手机自动重启后按住<kbd>音量下</kbd>+<kbd>电源</kbd>键，让系统进入TWRP界面即可自动升级。否则会失败。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">对比项</th>
+<th style="text-align:left">Lineage OS</th>
+<th>一加原生</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">图片编辑</td>
+<td style="text-align:left">可裁剪但不支持打码、圈点等</td>
+<td>图片编辑功能丰富</td>
+<td>原生系统胜</td>
+</tr>
+<tr>
+<td style="text-align:left">长截图</td>
+<td style="text-align:left">不支持</td>
+<td>支持</td>
+<td>原生系统胜</td>
+</tr>
+<tr>
+<td style="text-align:left">闹铃</td>
+<td style="text-align:left">不能跳过节假日</td>
+<td>智能跳过节假日</td>
+<td>原生系统胜</td>
+</tr>
+<tr>
+<td style="text-align:left">来电录音</td>
+<td style="text-align:left">支持不佳</td>
+<td>可自动录音</td>
+<td>原生系统胜</td>
+</tr>
+<tr>
+<td style="text-align:left">账号同步</td>
+<td style="text-align:left">登录谷歌账号可直接同步日历和通讯录</td>
+<td>需要单独安装谷歌日历和通讯录</td>
+<td>LineageOS胜</td>
+</tr>
+<tr>
+<td style="text-align:left">电源管理</td>
+<td style="text-align:left">功能强</td>
+<td>功能弱</td>
+<td>LineageOS胜</td>
+</tr>
+<tr>
+<td style="text-align:left">数据线</td>
+<td style="text-align:left">部分非原装不识别</td>
+<td>兼容好</td>
+<td>LineageOS胜</td>
+</tr>
+<tr>
+<td style="text-align:left">应用兼容性</td>
+<td style="text-align:left">部分APP如美团不兼容</td>
+<td>对常用（国产）APP兼容好</td>
+<td>原生系统胜</td>
+</tr>
+<tr>
+<td style="text-align:left">更新频率</td>
+<td style="text-align:left">日更，可享受最新安卓特性</td>
+<td>大版本才更</td>
+<td>LineageOS胜</td>
+</tr>
+<tr>
+<td style="text-align:left">运行状况</td>
+<td style="text-align:left">过于顺滑</td>
+<td>中规中矩</td>
+<td>LineageOS胜</td>
+</tr>
+<tr>
+<td style="text-align:left">权限管理</td>
+<td style="text-align:left">精细</td>
+<td>粗放</td>
+<td>LineageOS胜</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>2020年1月12日【update：视频教程及内容修订】</p>
+<p>关于本文的视频教程详见 https://www.bilibili.com/video/av83068835/</p>
+<hr>
+<p>手里有台128G的一加5（找人用内购码买的第二批机器）用了很久，虽然屏幕素质一般但系统稳定、流畅，毫无其他安卓机用久了卡、慢的表现。3年多来除了边角有些磕碰，就连电池到现在也没出过问题，令人十分满意。有口皆碑的一加对刷机十分友好，换块电池再战3年也不在话下。一加官方提供的两个系统（<a href="https://www.oneplus.com/oxygenos">氧OS</a>和<a href="https://www.h2os.com/">氢OS</a>）我都使用了很长时间，平时不爱拍照、不玩游戏，对市场上你追我赶的大部分宣传点基本免疫，刷上谷歌套件（Google Play、Calendar、Gmail什么的）就满足了我的绝大部分需求。</p>
+<p>前两个月我重拾iPhone SE切回到了iOS系统，这台一加5就暂时闲置了起来，想着抽空刷个第三方安卓玩玩，以下是折腾过程的纪要（本文的操作环境为Windows 10-1909-18363.535）。</p>
+<h2 id="0-准备工作">0. 准备工作</h2>
+<p>之所以折腾是因为准备工作不充分，主要的时间都耽搁在从百度云盘、相关网站下载跟刷机有关的文件上（主要是百度云盘）。由于 Lineage OS是Nightly更新（可以理解为每天滚动更新），因此本文刷机的Lineage OS和相关软件版本以<kbd>2019年12月25日~30日</kbd>期间为准。</p>
+<p>在进行刷机之前，需要准备好如下软件或环境：</p>
+<ul>
+<li><strong>一加5驱动</strong>（重要程度：★★★★★）
+<ul>
+<li>作用：确保电脑能够<kbd>识别/驱动</kbd>并连接手机。</li>
+<li>刷机前将手机连到电脑，下滑顶部的状态栏，找到USB连接的状态（或在手机设置里搜USB偏好设置）<img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szaUFDd2R6cFRRQmlvWDRVYkI3akpuUG82YWVsbzhQWXB3PT0.jpg" alt="USB偏好设置" loading="lazy"></li>
+<li>在USB偏好设置选项中选择<kbd>文件传输</kbd>，打开“我的电脑”就可以看到红色图标的虚拟光盘，<img src="http://imglf4.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szZzBCYkFrU2F3RlMra0ZWVTN2c0dJaXZHbmxnYzF2YkdBPT0.png" alt="手机自带驱动" loading="lazy"> 双击打开安装驱动并复制一份到电脑以策万全。</li>
+</ul>
+</li>
+<li><strong>Firmware for OnePlus 5</strong>最新9.0.9版（重要程度：★★★★★）
+<ul>
+<li>作用我尚不确定，有人说是基带不同，我没深究。Firmware是<code>烧录</code>在主板上的固件，类似于电脑的BIOS，用户通常极少触及。早年安卓机遇到信号弱的情况，玩家可以通过刷第三方基带来改善手机信号，这种操作可以说是刷固件了。</li>
+<li>我留意了Lineage OS指定的Firmware for OnePlus 5的基带和一加5救砖出厂OS、两次升级后的基带，发现当前最新版氢OS（Android 9）的基带与Firmware for OnePlus 5的基带没什么不同，Linux内核的版本也一致，所以暂时只能理解为这个固件集成了一加特有的硬件驱动。<img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szcVpPVmV1d2N3UURma1RWMmN6ODZZdDhhM3VxNmxZbEF3PT0.jpg" alt="刷入LineageOS指定的固件" loading="lazy"></li>
+<li>下载地址：https://sourceforge.net/projects/cheeseburgerdumplings/files/16.0/cheeseburger/ 下的<kbd>firmware</kbd>目录。</li>
+</ul>
+</li>
+<li><strong>TWRP for OnePlus 5</strong>最新的3.3.1XXX.img版（重要程度：★★★★）
+<ul>
+<li>安装在手机上的第三方引导程序，常用于卡刷操作。本文是线刷思路，TWRP用来配合<code>ADB</code>、<code>Fastboot</code>使用，作用是绕过官方Recovery的限制刷入第三方ROM或其他软件。</li>
+<li>官方下载地址：https://twrp.me/oneplus/oneplus5.html （<strong>请认真阅读官网使用教程</strong>）</li>
+<li>另外SourceForge也提供了针对OnePlus 5的下载镜像，见 https://sourceforge.net/projects/cheeseburgerdumplings/files/16.0/cheeseburger/ 下的<kbd>recovery</kbd>目录。</li>
+</ul>
+</li>
+<li><strong>ADB（Android Debug Bridge）与Fastboot环境</strong>（重要程度：★★★★★）
+<ul>
+<li>作用是线刷（其实是调试），用户在电脑端通过命令行输入指令进行刷机所需的各项操作。</li>
+<li>Android SDK Platform-Tools 是 Android SDK 的一个组件，它包含与 Android 平台进行交互的工具，例如<code>adb</code>、<code>fastboot</code>和<code>systrace</code>，你可以在https://developer.android.com/studio/releases/platform-tools 下载并安装。一般情况下Windows系统安装后重启电脑即可使用，少数情况需要手动配置<kbd>环境变量</kbd>，具体操作请自行搜索。</li>
+<li>如果你恰好喜欢命令行，推荐使用Windows下的包管理器<code>Choco install adb</code>安装ADB环境，我选用的是这种方式。</li>
+</ul>
+</li>
+<li><strong>LineageOS</strong>最新版（一加5目前可用的是16.0）（重要程度：★★★★★）
+<ul>
+<li>Lineage OS（或称Lineage OS Android Distribution）的前身是CyanogenMod（早年玩安卓稍微多点应该没有不知道CM的吧？），2016年12月Cyanogen公司突然宣布停止开发并关闭其Android项目，社区在fork了CyanogenMod的代码后更名为Lineage OS，因Lineage OS不包含间谍软体和臃肿的定制软件并且提供了许多厂商ROM所没有的安卓新特性而广受赞誉。</li>
+<li>我比较看重的有两点：其一是<code>原生</code>，其二是<code>简洁</code>；实事求是地说，在国内乌烟瘴气的安卓生态环境中，<strong>一加官方的氢OS和氧OS真的很不错</strong>。但Lineage OS也是一个不错的选择嘛，我决定试试，下载地址 https://download.lineageos.org 选择一加5手机后，就是对应的ROM包下载。</li>
+</ul>
+</li>
+<li><strong>一加5救砖工具包</strong>（重要程度：★★★★★）
+<ul>
+<li>作用：售后模式，让变砖手机恢复<strong>真·出厂</strong>状态。</li>
+<li>如果你不慎将手机刷成了砖头，请使用该工具进行真正、彻底的恢复出厂设置。使用方法也很简单，一台联网的电脑，手机<code>关机</code>状态下，按住<kbd>音量上</kbd>键（<strong>不要</strong>按其他键尤其是电源键；如果不行，就同时按住<kbd>音量上+下</kbd>键），将手机通过USB线连到电脑，在下图的第3行看到<kbd>COM设备</kbd>时就表示连接正常，点<kbd>start</kbd>按钮坐等手机起死回生。<img src="http://imglf3.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szaU02ZTBxWTY3MGVEM3hEdkxRc3J0RGRXTGs4S3VTVEVBPT0.png" alt="救砖" loading="lazy"></li>
+</ul>
+</li>
+<li>哈希校验工具（重要程度：★★★）
+<ul>
+<li>作用是确保你下载的上述软件都是<code>正确</code>的没有被篡改。建议使用支持SHA256或更高加密算法的工具，因为上述部分软件没有提供MD5值。</li>
+<li>推荐【<a href="https://www.nirsoft.net/utils/hash_my_files.html">Hash My Files</a>】或【<a href="https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/">MD5 &amp; SHA Checksum Utility</a>】，<em>后者可能在部分Window10环境下无法使用</em>。</li>
+</ul>
+</li>
+<li><strong>将上述软件下载后放在同一个文件夹（最好是英文字母/数字命名）下，这样进行命令行操作时（<s>不需要输入文件的绝对地址</s>）就不会因为路径问题找不到文件而失败。本教程用到的所有工具&amp;软件度盘下载地址  https://pan.baidu.com/s/1n2ieb49Y008PSoBj3M2MlA 提取码: up9k</strong></li>
+</ul>
+<h2 id="1-刷机详细步骤">1. 刷机详细步骤</h2>
+<p>以下刷机步骤遵循LineageOS 16.0安装向导  https://wiki.lineageos.org/devices/cheeseburger/install 如果你英文还不错，请自行参考。</p>
+<h3 id="11-解锁bootloader">1.1. 解锁Bootloader</h3>
+<p>解锁Bootloader是刷机的先决条件，简而言之就是“让手机<kbd>允许</kbd>刷入非官方认可的、别人家的系统”。</p>
+<p>在这里说句题外话，早年（大概是安卓4.0时代吧），国内的手机厂商对用户刷机还是很友好的，尤其是像小米这种打着“为发烧而生”旗号的产品更是随便刷。罗永浩这个傻逼（我是锤黑）创业的时候承诺粉丝不锁Bootloader但还是锁了并且强词夺理一番。如果我没记错的话（也可能记错了，因为我同时也是菊厂黑），华为是第一家公开宣布不提供解锁Bootloader且用户自行解锁就质保失效的国产手机厂商。当然华为的海军那么厉害，再加上“用户都是傻逼”所以其它厂商就纷纷跟进了。</p>
+<h4 id="111-什么是bootloader">1.1.1. 什么是Bootloader？</h4>
+<p>在计算机架构体系中，Bootloader是所有boot（U-Boot、Eboot、vivi、Redboot等）的总称；BIOS完成引导后，Bootloader接手初始化硬件设备、创建存储器空间的映射，以便为操作系统内核准备好正确的软硬件环境。</p>
+<p>安卓系统的智能手机在开机时需要<code>先</code>通过Bootloader启动，Bootloader是各手机制造商专有的镜像文件，它会监护设备状态、负责初始化（例如基带初始化）可信执行环境以及绑定其信任根、引导系统内核，直到系统启动。更多内容请参考Android官方的<a href="https://source.android.com/devices/bootloader">介绍文档</a>。</p>
+<h4 id="112-为什么要解锁bootloader">1.1.2. 为什么要解锁Bootloader？</h4>
+<p>一句话，为了<s>自由</s>。</p>
+<p>锁Bootloader与Android自由（free）、开放（open）的精神背道而驰，也是我这类人对厂商锁Bootloader义愤填膺的根本原因。至于国内厂商对安卓所作的那些生孩子没屁眼的烂事，与本文主题无关这里就不再赘述。举个<code>不恰当</code>（毫不夸张）的例子，就好比你买了套精装修的房子，开发商说，不许你动这房子里的任何门窗、墙面、地板以及装修，若违反的话他们不再对房子的<em>任何问题</em>承担任何责任。你不觉得这很搞笑吗？有的开发商甚至在你客厅里装了个比分众传媒的终端更恶心的智慧屏天天放乱七八糟的广告、更有甚者在你卧室装一个摄像头研究你们的夫妻生活。Fuck off！</p>
+<p>当然，解锁Bootloader存在一定的安全隐患，对普通用户来说就好比给了他们一把枪，他们万一打到自己怎么办？厂商（的说辞）的确有厂商的道理（在我看来是为了减少售后工作量），但用户应该有用户的自由。</p>
+<h4 id="113-怎样解锁bootloader">1.1.3. 怎样解锁Bootloader？</h4>
+<p>解锁Bootloader前的准备工作：</p>
+<ol>
+<li>在手机端启用开发者模式，如下图所示，依次找到<code>设置--关于手机--版本号</code>，连续点7次版本号。</li>
+<li>【<strong>重要：如果不开启这项设置，解锁会失败</strong>】在开发者选项中打开允许OEM解锁，依次找到<code>设置--系统--开发者选项--OEM解锁</code>，点击开关打开。未开启该设置下面的操作会出现类似下图的报错：<br>
+<img src="http://imglf3.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szdU1FMjVlWmZGRmJvNVlvazNFZTQ2MWw5d1RoUjZWOEpnPT0.png" alt="没解锁Bootloader的报错" loading="lazy"></li>
+<li>在开发者选项中开启USB调试，依次找到<code>设置--系统--开发者选项--USB调试</code>，点击开关打开。<br>
+<img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szcC9VZEM3dWo1NVVmVFc1ZTloUmtrek44ZlF4a0t2L3R3PT0.jpg" alt="开启USB调试" loading="lazy"></li>
+<li>将手机连到电脑，手机会弹出下图所示界面，勾选<code>一律允许使用这台计算机进行调试</code>，然后点击<kbd>确定</kbd>。如果没完成这步操作，下面的操作则报错、无法继续。<br>
+<img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szZ2pickRzV2RHVG91dzNVUCtKVXZrNEJ2MGtnSGs2M0lRPT0.jpg" alt="允许电脑USB调试" loading="lazy"></li>
+<li>Windows电脑<code>开始--运行--输入&quot;cmd&quot;</code>【按<kbd>Windows</kbd>+<kbd>R</kbd>键在弹窗输入<code>cmd</code>】打开命令行窗口，输入以下指令：</li>
+</ol>
+<pre><code class="language-bash">adb devices # 该命令用于检查电脑是否成功识别并连接手机，将输出以下2行内容
+List of devices attached
+755b2db9  device  # 该输出结果表示电脑已成功识别并连接手机
+`至此无异常，继续以下命令：`
+adb reboot bootloader  # 该命令可使手机重启并进入FastBoot模式，效果等同于关机后长按“音量上+电源”组合键
+fastboot devices  # 手机进入Bootloader模式后执行该命令再次确认电脑成功识别并连接手机
+755b2db9  fastboot  # 该输出结果表示电脑已成功识别并连接手机
+`至此无异常，继续以下命令：`
+fastboot oem device-info  # 该命令可查询bootloader状态信息
+(bootloader) Verity mode: true
+(bootloader) Device unlocked: false  # 该输出表示手机处于未解锁状态
+(bootloader) Device critical unlocked: false
+(bootloader) Charger screen enabled: true
+(bootloader) enable_dm_verity: true
+(bootloader) have_console: false
+(bootloader) selinux_type: SELINUX_TYPE_INVALID
+(bootloader) boot_mode: NORMAL_MODE
+(bootloader) kmemleak_detect: false
+(bootloader) force_training: 0
+(bootloader) mount_tempfs: 0
+OKAY [  0.022s]
+Finished. Total time: 0.022s
+`确定未解锁后，执行以下命令：`
+fastboot oem unlock # 该命令用于解锁手机Bootloader，此时输出以下结果
+             OKAY [  0.044s]
+Finished. Total time: 0.049s # 出现该输出表示解锁手机Bootloader命令执行成功
+</code></pre>
+<ol start="6">
+<li>如果上面这段命令行你执行的顺利，手机屏幕会出现下图所示的内容。这时需要你在手机端通过<kbd>音量上/下</kbd>键选择<code>UNLOCK THE BOOTLOADER</code>，然后按<kbd>电源</kbd>键以确认。<br>
+<img src="http://imglf4.nosdn0.126.net/img/YW1mMVNMRFhFaEg0ZjA5azROaVY1aXpaUDVzVWI4SC93N2JWdTgvY3FNSWhwS3ZNSW5vckp3PT0.jpg" alt="手机端选择OEM解锁" loading="lazy"><br>
+此时手机会自动重启并进行初始化后才进入系统，至此你完成了手机的Bootloader解锁。接下来你需要重新打开手机的开发者模式（在关于手机的版本号连续点7次），在<code>开发者选项</code>设置界面可以看到如下图右侧所示的解锁成功（灰色）界面。</li>
+</ol>
+<h3 id="12-刷入twrp">1.2. 刷入TWRP</h3>
+<p>以上操作完成了解锁手机的Bootloader，接下来的操作你需要先执行上一阶段《解锁Bootloader》中1~4步骤的<code>开启开发者模式</code>和<code>允许USB调试</code>，然后手机连接电脑后进入FastBoot模式再继续。</p>
+<p>将手机开机后连接电脑，进入命令行界面，输入<code>cd 准备工作下载的软件所在文件夹</code>先跳转到该目录下，再执行以下操作：</p>
+<blockquote>
+<p>如果你的下载文件不在C盘，则DOS命令<code>cd</code>到绝对路径时会报错，你需要先在命令行直接输入盘符如<code>d:</code>或者<code>e:</code>后回车，进入该分区后，再用<code>cd</code>命令跳转到文件所在目录。<br>
+小提醒，以下示例代码中具体命令后跟的文件名可能和你下载的文件名不一致，请以你本机的文件名为准。执行命令时输入开头几个字母再敲<kbd>TAB</kbd>键会自动补齐文件名。</p>
+</blockquote>
+<pre><code class="language-bash">cd C:\oneplus5\  # 例如我的下载文件都放在桌面的`oneplus5`文件夹下，用`dir`命令可打印出这些文件
+
+adb devices  # 确保手机和电脑连接正常
+List of devices attached
+755b2db9  device
+`无异常，继续以下命令：`
+adb reboot bootloader  # 手机自动重启并进入FastBoot模式
+
+fastboot devices  # 再次执行该命令确保电脑与手机连接正常
+755b2db9  fastboot
+`无异常，继续以下命令：`
+fastboot flash recovery twrp.3.3.1XXX.img  # 该命令的作用是将文件名为`twrp.3.3.1XXX.img`的Recovery文件刷入手机
+Sending 'recovery' (33684 KB)    OKAY [  0.848s]
+Writing 'recovery'               OKAY [  0.153s]
+Finished. Total time: 1.026s  # 至此表示成功刷入了TWRP。
+</code></pre>
+<p>此时需要用命令<code>fastboot reboot</code>命令重启手机。但不要着急，接下来要严格按照<a href="https://twrp.me/oneplus/oneplus5.html">教程</a>操作：</p>
+<blockquote>
+<p>Note many devices will replace your custom recovery automatically during first boot. To prevent this, use Google to find the proper key combo to enter recovery. After typing fastboot reboot, hold the key combo and boot to TWRP. Once TWRP is booted, TWRP will patch the stock ROM to prevent the stock ROM from replacing TWRP. If you don't follow this step, you will have to repeat the install.</p>
+</blockquote>
+<p>这段话的意思是说，许多手机会在开机阶段自动覆盖第三方recovery引导程序，为了避免这种情况，请先搜一下你的手机进入recovery模式的组合键。在输入重启手机命令后<strong>立即</strong>按住该组合键（一加5的是<kbd>音量下+电源</kbd>键），一旦TWRP启动成功，它就会向手机系统里打补丁，这样后面的操作再重启手机时用组合键就可以直接进入第三方recovery模式了。如果不按这种步骤操作，就会出现只能进入一加自带的Recovery环境、不能进入TWRP的怪圈。</p>
+<hr>
+<p><s>我曾被Lineage OS官方安装指导的<code>fastboot boot &lt;TWRP.img&gt;</code>方法误导，虽然能进入TWRP，但有bug不建议使用</s>。</p>
+<blockquote>
+<p>该方法存在瑕疵，请勿使用。<br>
+adb reboot bootloader<br>
+fastboot boot &lt;twrp-3.3.1...&gt;.img  # 该命令直接指定用<code>TWRP...img</code>引导而非手机默认自带的Recovery<br>
+Sending 'boot.img' (33684 KB)    OKAY [  0.789s]<br>
+Booting                                           OKAY [ 10.102s]<br>
+Finished. Total time: 10.949s  # 出现此类输出结果时表示，手机已经成功进入TWRP的Recovery环境。</p>
+</blockquote>
+<hr>
+<p>当你在手机屏幕上看到TWRP的界面就意味着该步骤完成了。接下来的一些操作（刷入Firmware和Lineage OS）需要手机端操作TWRP协同电脑端命令行进行。</p>
+<h3 id="13-先通过twrp刷入firmware固件">1.3. 先通过TWRP刷入Firmware固件</h3>
+<p>接上一步的操作，在手机端的TWRP界面，点选<kbd>Advanced</kbd>选项，然后在手机界面里点选<kbd>ADB sideload</kbd>选项，然后滑动下面的滑块确认选择，等待电脑端执行<code>adb sideload 刷机包名.zip</code>命令，手机屏幕如下图所示。</p>
+<pre><code class="language-bash">adb sideload firmware_9.0.9_oneplus5.zip  # 该命令是线刷指令，意为将Firmware固件通过USB数据线写入手机
+Total xfer: 1.05x  # 出现这个输出表示固件刷入完成，重启手机即可
+</code></pre>
+<p><img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEdOcDRvdWVGMGovRHg3L0I4aEttd0xaVDZLKzJSRGptWUw5R0lRUFF1OVp3PT0.jpg" alt="通过TWRP刷入文件包" loading="lazy"><br>
+<strong>重要提醒：必须先刷入这个Firmware固件，否则直接刷Lineage OS后一加手机就无法进入系统，只能救砖</strong>。</p>
+<h3 id="14-通过twrp刷入lineage-os">1.4. 通过TWRP刷入Lineage OS</h3>
+<p>【<strong>重要提醒：上一步的刷入Firmware后会覆盖掉TWRP而我们教程里的大部分刷机操作都需要这个第三方recovery协助。TWRP被覆盖原因在于刷Firmware固件就是重写手机的引导程序（bootloader），因此我们必须重新刷入TWRP才能执行后面的操作，请重复前面的操作即可</strong>。】</p>
+<p>重新刷入TWRP后将手机关机，长按<kbd>音量下+电源</kbd>键，开机并进入TWRP界面。按官方教程进行<code>三清</code>操作，即在手机TWRP界面点选<kbd>Wipe</kbd>，先点选<kbd>Format Data</kbd>等执行完成后，再点<kbd>Advanced Wipe</kbd>，然后进去勾选<kbd>Cache</kbd>和<kbd>System</kbd>向右滑动底部滑块执行擦除（格式化）操作，不懂其中区别的朋友最好不要乱选，不然手机变砖又得从头来过，下图【<strong>只是示意截图千万不要按图示勾选，按文字说明操作</strong>】所示的<code>Internal Storage</code>是手机自身的存储。<br>
+<img src="http://imglf6.nosdn0.126.net/img/YW1mMVNMRFhFaEZyTjlTSkQyZGdocWJKak42VDRYWm92MFlQbnRJWHJwc2RkNkpiK0RoSTd3PT0.jpg" alt="在TWRP中执行双清" loading="lazy"><br>
+【<strong>提醒：在TWRP中wipe操作需要输入<code>yes</code>确认命令，等我们刷机进入新系统初始化后（如果设定了锁屏密码），在后续通过TWRP刷入其他软件包的时候会要求输入锁屏密码</strong>。】</p>
+<p>当我们在手机上执行完<code>三清</code>操作后（不要重启系统）返回到TWRP首页，选择<kbd>Advanced</kbd>选项，然后点选<kbd>ADB sideload</kbd>模式，向右滑动底部的滑块确认操作，等待电脑端执行<code>adb sideload</code>命令，如下所示：</p>
+<pre><code class="language-bash">adb sideload lineage-16.0-20191229-nightly-cheeseburger-signed.zip  # 该命令是线刷指令，这一次是将lineage-16.0-20191229……这个系统文件包通过USB数据线写入手机
+serving: 'lineage-16.0-20191229-nightly-cheeseburger-signed.zip'  (~26%)  # 会显示刷机进度
+Total xfer: 1.01x  # 刷机完成
+</code></pre>
+<p><img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szbTZUUC9aS3VrNzA5QWNYNG9OSDhnVS9aV3hzalJkSE13PT0.jpg" alt="通过TWRP刷入Lineage OS" loading="lazy"><br>
+最后手机屏幕会显示如上图所示效果，这就完成了Lineage OS的刷机。此时点选<kbd>Reboot System</kbd>重启手机即可进入新系统的初始化过程。</p>
+<p><em>小知识：在TWRP双清原有系统后，返回TWRP首页，点选<kbd>Install</kbd>然后选择<code>提前拷贝到手机里</code>的软件包，这个操作就是卡刷——顾名思义就是借助外置的存储卡如TF卡进行刷机操作，早年的安卓机由于机身存储空间不足，往往通过TF卡槽的方式扩展机身存储空间，这便是卡刷一词的由来</em>。</p>
+<h3 id="15-刷入addonsu获取root权限">1.5. 刷入addonsu获取Root权限</h3>
+<p>如果你想再刷入谷歌套件、Root工具等，刷机完成后，重启进入TWRP，继续用<code>adb sideload</code>命令刷入所需的软件包即可。</p>
+<ol>
+<li><strong>Root手机</strong>：重启进TWRP首页，点选<kbd>ADB Sideload</kbd>，在电脑端用<code>adb sideload &lt;指定软件包&gt;</code>像上一步刷系统那样操作即可（效果如下图所示）。Lineage OS官方指定的Root工具包addonsu（<a href="https://download.lineageos.org/extras">下载地址</a>），刷机完成后重启手机在<code>设置--系统（高级折叠区域）--开发者选项--Root授权和管理Root访问</code>中启用。<img src="http://imglf6.nosdn0.126.net/img/YW1mMVNMRFhFaEdxNHQ4ek5GMUhoMWtBYS9GZGNZU2g2UUNaRlNQd1FndnBMTHR3Mk14SzZnPT0.jpg" alt="adb sideload刷入软件包" loading="lazy"></li>
+<li><strong>谷歌套件</strong>：进入TWRP模式，然后操作同上继续刷入谷歌套件（<a href="https://wiki.lineageos.org/gapps.html">下载地址</a> ）其中OpenGApps镜像的下载链接里列出了不同版本里包含Google APP的差异，详情点击<a href="https://opengapps.org/">Variant列</a>所示的GitHub页面查看）如果下载困难，请参考文章开始我搬运的度盘下载。 <img src="http://imglf6.nosdn0.126.net/img/YW1mMVNMRFhFaEd5cXpNR01ya2szdHlFMzVneXlsM0NNcjdpRUJpTm9yMk5vUTlRREVKR0VnPT0.png" alt="不同版本之间的差异" loading="lazy"></li>
+<li><strong>升级与其他问题</strong>：
+<ol>
+<li>由于是Nightly更新，Lineage OS的更新会非常频繁，更新服务器应该是海外，因此许多人下载起来可能会比较慢，这倒不是最棘手的问题——每次下载的更新都是全量包——居然不能增量更新，大概是Lineage OS的打包机制就是如此吧。但请<strong>注意</strong>，每次更新后的系统重启都要按住<kbd>音量下</kbd>+<kbd>电源</kbd>键进入TWRP才能完成自动更新——否则会因为默认没有进第三方Recovery而导致更新失败。</li>
+<li>完成所有刷机操作后重启手机，初始化系统设置后进入桌面，这时会发现WiFi连不上网，原因是系统时间默认为澳洲本地时间（即便你在初始化时选定了东八区北京时间也没用），只要手动修改下手机的系统时间即可。</li>
+<li>另外推荐两个应用市场，国内的<a href="https://www.coolapk.com">酷安市场</a>和开源的第三方<a href="https://f-droid.org">F-Droid</a>市场，当然刷入了谷歌套件的同学用Google Play也是极好的选择。</li>
+</ol>
+</li>
+</ol>
+<h2 id="2-关于刷机-root及其他">2. 关于刷机、Root及其他</h2>
+<p>曾几何时，刷机与Root是安卓玩家的必备技能。随着时代的发展，许多以奇巧淫记杀后台进程的黑域、绿色守护等APPs让复杂度更高的Root必要性大幅降低，Android系统刷版本号的同时也一步步砌高了安全的围墙，随着设备类型的激增，Root的难度虽然比不上iOS越狱但也不再是“一键可得”，这项屠龙之技正在与小白用户渐行渐远。</p>
+<p>智能机时代的早期，人们除了几个电话号码和像素不高的照片，手机并没有多少重要的个人数据。但随着这几年智能手机逐渐侵蚀我们的生活，智能手机里的个人数据越来越多、也越来越重要；由于刷机有一定的技术门槛，再加上刷机会清空手机数据，所以用户刷机的需求和动力也逐渐降低；再加上现在的安卓系统越来越成熟稳定，刷机的收益比“为发烧而生”的时代大为降低；最后，现在多数国产安卓机厂商普遍锁Bootloader阻止用户刷其他友商的系统。因此安卓系统的刷机与Root必将和iOS的越狱一起，走进历史的旧纸堆。<br>
+<img src="http://imglf5.nosdn0.126.net/img/YW1mMVNMRFhFaEg0ZjA5azROaVY1bjlZT3NGLzBIdmJ4N2x5ZXpnb25yaTgvN2FrdVBtT29nPT0.png" alt="日更的Lineage OS" loading="lazy"><br>
+然而，虽然Android一直在与iOS的互相抄袭中快速进步，但一众国产安卓APPs“不给权限不让用”的丑恶嘴脸一时仍难以改观。各厂商的ROM变得越来越封闭，市场上留给用户的选择真的不多了，我们除了咒骂几句又无可奈何，而这几句咒骂在行霸道（而非王道）的大厂面前未触已溃，奈何河广、一苇难杭。Google似乎无意解决已经尾大不掉的碎片化问题，反正整个生态也还可以，倒是在夹缝中的第三方开源ROM一直面临生存的挑战，CM的变故已是一例。至于Lineage OS能否成为你主力机/备机的稳定系统，要各位自己亲身体验后才能得出结论了，我的态度是，不妨试试。</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://mikey2008.github.io/写给17岁的自己——科比/">
+                <h3 class="post-title">
+                  写给17岁的自己——科比
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://mikey2008.github.io/images/avatar.png?v=1612701331273" class="no-responsive avatar">
+    <div class="text-muted">爱谁谁</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://mikey2008.github.io/记一次心脏手术/">记一次心脏手术</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mikey2008.github.io/【教程】一加5刷LineageOS全过程/">【教程】一加5刷LineageOS全过程</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mikey2008.github.io/写给17岁的自己——科比/">写给17岁的自己——科比</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mikey2008.github.io/优雅的代价/">优雅的代价</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://mikey2008.github.io/关于占星学的几个问题/">关于占星学的几个问题</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://mikey2008.github.io/l6B3fWPLc/" class="badge secondary">
+          健康
+        </a>
+      
+        <a href="https://mikey2008.github.io/LaFdBA_Ty/" class="badge secondary">
+          刷机
+        </a>
+      
+        <a href="https://mikey2008.github.io/fQJglpPtze/" class="badge ">
+          一加5
+        </a>
+      
+        <a href="https://mikey2008.github.io/kRv0HA_ZOt/" class="badge ">
+          LineageOS
+        </a>
+      
+        <a href="https://mikey2008.github.io/PvA4ueAq3A/" class="badge secondary">
+          父母皆祸害
+        </a>
+      
+        <a href="https://mikey2008.github.io/read/" class="badge ">
+          读书
+        </a>
+      
+        <a href="https://mikey2008.github.io/FGU-qXe7p62/" class="badge secondary">
+          星座运势
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com" target="_blank"> GitHub </a> | <a class="rss" href="https://mikey2008.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
